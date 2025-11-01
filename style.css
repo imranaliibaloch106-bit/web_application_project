@@ -1,14 +1,90 @@
+/* General Page Style */
 body {
-    font-family: Arial;
-    background-color: #f0f0f0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #d7e1ec, #f0f0f0);
     text-align: center;
     padding: 30px;
-}
-h1 {
     color: #333;
+    margin: 0;
 }
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Links */
 a {
     text-decoration: none;
     margin: 10px;
-    color: blue;
+    color: #0066cc;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #ff6600;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Inputs & Textarea */
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #004c99;
+}
+
+/* Container box (optional for all pages) */
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin: 30px auto;
+    width: 70%;
+}
+
+/* Footer Style */
+footer {
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
 }
